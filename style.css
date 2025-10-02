@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #0d0d0d;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #1d1d1d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(1, 1, 1, 1);
+}
+h1 {
+  color: rgb(95, 25, 53);
+  text-align: center;
+  border-bottom: 2px solid rgb(121, 14, 56);
+  padding-bottom: 10px;
+}
+.resultado {
+  background: #ffff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border-left: 4px solid rgb(95, 11, 45);
+}
+.numero {
+  font-weight: bold;
+  color: #1e0969;
+}
+.error {
+  color: #cc0000;
+  background: #ffeeee;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 4px solid #cc0000;
+}
